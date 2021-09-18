@@ -16,5 +16,5 @@ fs.ensureDir(dir)
     .then(() => console.log('succsesfull!!!111'))
     .catch((err) => console.log(err))
 
-
+console.log('homework2');
 
