@@ -1,0 +1,19 @@
+{
+  "name": "proj",
+  "version": "1.0.0",
+  "description": "my project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "protractor",
+    "test"
+  ],
+  "author": "AlexanderM",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "moment": "^2.29.1"
+  }
+}
