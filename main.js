@@ -13,7 +13,7 @@ fs.ensureDir(dir)
         fs.remove(dir)
         fs.remove(dir2)
     })
-    .then(() => console.log('succsesfull!!!'))
+    .then(() => console.log('succsesfull!!!111'))
     .catch((err) => console.log(err))
 
 
