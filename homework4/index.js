@@ -35,8 +35,6 @@ const one = 1;
 const two = '2';
 const isTrusty = true;
 
-
-
 calcTwoValue(isTrusty, two, '+'); // "true2"
 calcTwoValue(one, two, '+'); // "12"
 calcTwoValue(one, isTrusty, '+'); // 2
