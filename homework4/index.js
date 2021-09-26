@@ -50,6 +50,6 @@ calcTwoValue(isTrusty, two, '-'); // -1
 calcTwoValue(one, two, '-'); // -1
 calcTwoValue(one, isTrusty, '-'); // 0
 
-convValue(two, 'int')
-convValue(one, 'str')
-convValue(one, 'bool')
+convValue(two, 'int') // 2
+convValue(one, 'str') // "1"
+convValue(one, 'bool') // true
