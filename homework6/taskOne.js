@@ -9,7 +9,7 @@ console.log(Math.max.apply(null, arrTwo ));
 // task three
 
 const resultForTaskThree = (start, length) => {
-    let startArray = [1, 1]; 
+    let startArray = [1, 1];
 
     if (length <= 2) { 
 
@@ -20,12 +20,13 @@ const resultForTaskThree = (start, length) => {
         for (i = 0; i < (start + length); i++) { 
             startArray.push(startArray[startArray.length - 1] + startArray[startArray.length - 2]); 
         }
-
-        return startArray.slice(0, length)
     }
+    
+    return startArray.slice(start, length);
+
 }
 
-console.log(resultForTaskThree(0, 7));
+console.log(resultForTaskThree(0, 6));
 
 // task five
 const sortAsc = arrTwo.sort(function(a, b) {
